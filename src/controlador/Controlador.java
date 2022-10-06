@@ -23,8 +23,7 @@ public class Controlador implements ActionListener {
     private Vista vi;
     private Estenteria es;
     private int pos;
-    DecimalFormat f1 = new DecimalFormat("############.#%");
-
+   
     public Controlador(Vista vi, Estenteria es) {
         this.vi = vi;
         this.es = es;
